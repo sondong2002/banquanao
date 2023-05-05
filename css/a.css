@@ -1,0 +1,41 @@
+.card {
+    width: 260px;
+    margin: auto;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+   margin-bottom: 10px
+    
+  }
+  .card p {
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+    font-weight: 500;
+  }
+  .card h1 {
+      font-size: 18px;
+      padding: 10px;
+  }
+  .card:hover {
+      
+      box-shadow: 5px 10px 12px 5px rgba(0, 0, 0, 0.2);
+  }
+  .price  {
+    color: grey;
+  }
+  
+  
+  .rating {
+      display: flex;
+      padding: 3px 80px;
+      
+  }
+  .tille h1 {
+      padding: 50px ;
+  }
+  .star {
+    color: goldenrod;
+    
+  }

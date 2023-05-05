@@ -1,0 +1,210 @@
+.wrapper{
+    width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+   
+ }
+ 
+ :root {
+  --primary: #08aeea;
+  --secondary: #13D2B8;
+  --purple: #bd93f9;
+  --pink: #ff6bcb;
+  --blue: #8be9fd;
+  --gray: #333;
+  --font: "Poppins", sans-serif;
+  --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+}
+ h2{
+    font-size: 30px;
+    font-family: inherit;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-transform: uppercase;
+}
+h3{
+  padding-bottom: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+ul.products{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    
+}
+ul.products li  {
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    
+    
+}
+.products {
+  justify-content: center;
+  
+  
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ margin-left: -60px;
+ 
+}
+.list img {
+  width: 800px;
+}
+
+.products-thumb-1 img{
+  width: 180px;
+  
+}
+
+  .Headline {
+    text-align: center;
+    position: relative;
+    padding: 60px;
+  }
+  .Headline:before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: gainsboro;
+  }
+  .Headline h2 {
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    z-index: 1 ;
+    padding: 1rem;
+    font-weight: 600;
+    border: 2px solid gainsboro;
+    
+    
+  }
+    
+    
+    
+ 
+ .a img{
+   margin-left: 80px;
+   width: 1400px;
+ }
+.products-top {
+  margin-bottom: -40px;
+}
+.products-infor {
+  font-size: 19px;
+  
+}
+.products-infor :hover{
+    color: rgb(212, 6, 6)
+
+    
+}
+
+.products-thumb img{
+    width: 270px;
+    
+   
+}
+.products-top {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .min {
+    position: relative;
+    display: flex;
+  }
+ 
+  
+  .overlay-3 {
+    position: absolute; 
+    bottom: 0; 
+    background:rgb(212, 6, 6);
+    margin-bottom: 318px;
+    font-weight: 400px;
+    width: 60px;
+    opacity:2;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 210px;
+
+  }
+  .a{
+    margin-left: -20px;
+  }
+  .min :hover  {
+    color: orange;
+  
+  }
+  
+  
+ 
+  .overlay-2{
+    position: absolute; 
+    bottom: 0; 
+    background:rgb(212, 6, 6);
+    margin-bottom: 318px;
+    font-weight: 400px;
+    width: 90px;
+    transition: .5s ease;
+    opacity:2;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 180px;
+    
+    
+  }
+  
+  .products-items {
+    height: 410px;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif
+
+  }
+  .add-card {
+    margin-top: -40px;
+    opacity: 0;
+    transition: 0.3s all;
+    transform: translateY(20px);
+  }
+  .products-items:hover {
+    background-color: rgb(245, 245, 245);
+    opacity: 0.8;
+  }
+  .products-items:hover .add-card {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .star {
+    margin-top: 10px;
+    color: goldenrod;
+    
+  }
+  .view  {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+

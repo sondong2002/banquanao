@@ -1,0 +1,38 @@
+.widget-title{
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid black; width: 150px; padding-top: 20px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    padding-right:40px;
+    
+}
+.widget{
+    margin: 40px;
+    font-size: 18px;
+    display: block;
+    
+    
+    width: 250px;
+    
+    
+}
+.widget ul li {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    border-left: 2px solid transparent;
+}
+.widget  ul li :hover{
+    color: orange;
+    border-left: 2px solid transparent;
+}
+.photo{
+   
+    margin-left: 275px;
+    margin-top: -525px;
+}
+.photo img {
+    width: 1150px;
+    height: 100%;
+}

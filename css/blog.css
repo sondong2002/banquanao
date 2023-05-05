@@ -1,0 +1,44 @@
+.blog {
+    
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.blog-img{
+    text-align: right;
+    width: 50%;
+}
+.blog-info{
+    width: 50%;
+}
+.blog-info{
+    padding: 20px;
+}
+.blog-title{
+    font-size: 30px;
+    margin-top: -25px;
+}
+.blog-preview{
+        text-align: justify;
+        width: 350px;
+}
+
+.blog1{
+    display: flex;
+}
+.blog2{
+    display: flex;
+}
+.blog1-1{
+    display: flex;
+}
+.blog1-2{
+    display: flex;
+    margin-left: -10px;
+}
+.blog2-1{
+    display: flex;
+}
+.blog2-2{
+    display: flex;
+    margin-left: -10px;
+}

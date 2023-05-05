@@ -1,0 +1,24 @@
+.sale{
+    display: flex;
+    background-color: black;
+    padding: 15px 80px;
+    color: white;
+    margin-top:154px;
+  
+}
+.sale ul{
+    display: flex;
+}
+.sale ul li a{
+    position: relative;
+    padding: 0 20px;
+    margin-left: 18px;
+ 
+}
+.sale ul li a:hover{
+    color: orange;
+
+}
+.sale ul li a p{
+    font-size: 11px;
+}
